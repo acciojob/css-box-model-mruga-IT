@@ -1,13 +1,18 @@
 
 /* Your CSS Code here. */
-.text{
-	color: blue;
-	background-color: yellow;
-	margin: 50px;
-	widows: 300px;
-	font-size: 16px;
-	border: 1px dotted black;
-}
-#text{
+.parent{
+	margin:20;
+	background-color: blue;
+	padding: 30px;
+	color: white;
+	width:360px;
+	border: 20px solid red;
 	
+}
+.child{
+	background-color: yellow;
+	padding: 30px;
+	width: 300px;
+	border: 3px dashed black ;
+	test-position: center;
 }
